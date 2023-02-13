@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdacityProject"
+	},
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.medium"
+	},
+	{
+		"ParameterKey": "AMI",
+		"ParameterValue": "ami-0557a15b87f6559cf"
+	}
+]
