@@ -75,7 +75,6 @@ Resources:
                 !Sub "${EnvironmentName}-S3BucketDemo"
                 
       ImageId: !Ref AMI 
-      KeyName: udagramKey
       IamInstanceProfile:
         Fn::ImportValue:
           !Sub "${EnvironmentName}-ProfileWithRolesForOurApp"
